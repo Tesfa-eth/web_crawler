@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Jude Higdon, Ed.D.",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Jude%20Higdon-320x230px.jpg?itok=Zq2v5NL1",
+        "position": "Director of Technology",
+        "location": "Dickinson 225"
+    },
+    {
+        "name": "Chris Adams",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Adams_Chris_320x230_0.jpg?itok=KVg_49-Z",
+        "position": "Associate Director of Technology",
+        "location": "Dickinson 225"
+    },
+    {
+        "name": "Joshua Wysocki",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Wysocki_Joshua_320x230.jpg?itok=pDGXxpLy",
+        "position": "Systems Administrator",
+        "location": "Dickinson 225"
+    },
+    {
+        "name": "Matt Vozzella",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/6000%20x%204000IMG_9852.jpg?itok=_511PXuq",
+        "position": "Media and Classroom Technology Coordinator",
+        "location": "Dickinson 225"
+    },
+    {
+        "name": "Eric Dingfelder",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/EricHeadShot.JPG?itok=Dbsm_NSe",
+        "position": "Senior Software and Data Engineer"
+    },
+    {
+        "name": "Jason Goodyear",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Jason_Goodyear.png?itok=JMr_MoEi",
+        "position": "Systems Analyst"
+    },
+    {
+        "name": "Nate Goyette",
+        "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Goyette_Nate-320x230px.jpg?itok=V-JctyXk",
+        "position": "Support and Infrastructure Manager",
+        "location": "Dickinson 225"
+    }
+]
