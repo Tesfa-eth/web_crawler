@@ -18,17 +18,19 @@ def word_cleanup(word):
     """removes blank and new line space from a word"""
     return word.strip(' ').strip('\n')
 
-def spider(url_list, main_website='https://www.bennington.edu'):
+def spider(url_list, main_website='https://www.bennington.edu', separate_files=False):
     """scraps through the presidents office site on bennington.edu
     Args:
-    main_website: url of the main webiste. In this case, https://www.bennington.edu
-    url: list of specific site extensions to be scrapped with out the main website. 
+    url: string, list of specific site extensions to be scrapped with out the main website. 
          For https://www.bennington.edu/technology, enter [technology, ...]
+    main_website: string, url of the main webiste. In this case, https://www.bennington.edu
+    all_in_one: bool, create a separate file for each scrapped page.
     Returns:
     writes the data to json file
     """
+    all_data = [] # store scrapped data of all office (page) here, if all_in_one is enabled
     for extension in url_list:
-        data = [] # store all the information here
+        data = [] # store scrapped data of a single office (page) here
         full_url = main_website + '/' + extension
         print(full_url)
         source_code = requests.get(full_url)
@@ -38,6 +40,7 @@ def spider(url_list, main_website='https://www.bennington.edu'):
             dict_ = {}
             dict_['name'] = word_cleanup(link.h5.text)
             dict_['img_src'] = main_website + link.img['src']
+            dict_['page'] = extension
             count = 0 # keep track of what comes first and second
             for small_link in link.findAll('div'):
                 word = word_cleanup(small_link.text)
@@ -46,10 +49,14 @@ def spider(url_list, main_website='https://www.bennington.edu'):
                     count += 1
                 else:
                     dict_['location'] = word
-            data.append(dict_)
-        write_json(data, extension)
+            all_data.append(dict_)
+            if separate_files:
+                data.append(dict_)
+        if separate_files:
+            write_json(data, extension)
+    write_json(all_data, 'all_scraped_data')
 
 if __name__ == '__main__':
     url_list = ['admissions-office', 'presidents-office', 'technology', 'business-office' ]
-    spider(url_list)
+    spider(url_list, separate_files=True)
 

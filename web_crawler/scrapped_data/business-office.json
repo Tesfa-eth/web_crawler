@@ -2,54 +2,63 @@
     {
         "name": "Brian F. Murphy",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Murphy_Brian_320x230_2.jpg?itok=oLqMHq3I",
+        "page": "business-office",
         "position": "Senior Vice President for Finance and Administration",
         "location": "Barn 102B"
     },
     {
         "name": "Gary Huff",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/huffstaffpageimg_1.jpg?itok=3OG4gpF9",
+        "page": "business-office",
         "position": "Controller",
         "location": "Remote"
     },
     {
         "name": "Noel Volpi",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Volpi_Noel_320x230.jpg?itok=m_39MNsM",
+        "page": "business-office",
         "position": "Payroll Specialist",
         "location": "Barn 102C"
     },
     {
         "name": "Stephen Mathyas",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Mathyas_Stephen_320x230.jpg?itok=clH7eXWa",
+        "page": "business-office",
         "position": "Senior Accounting Assistant",
         "location": "Putnam Office (Downtown)"
     },
     {
         "name": "Michelle Rollins",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Rollins_Michelle_320x230.jpg?itok=o4X8HoE8",
+        "page": "business-office",
         "position": "Student Billing Specialist",
         "location": "Putnam Office (Downtown)"
     },
     {
         "name": "Tricia Bettis",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Bettis_Tricia_320x230.jpg?itok=pgfHOJNv",
+        "page": "business-office",
         "position": "Senior Accountant",
         "location": "Putnam Office (Downtown)"
     },
     {
         "name": "Aimee Davis",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Davis_Aimee_320x230_0.jpg?itok=eDSTSzfV",
+        "page": "business-office",
         "position": "Accounts Payable Specialist",
         "location": "Putnam Office (Downtown)"
     },
     {
         "name": "Teresa Sholes",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Sholes_Teresa_320x230.jpg?itok=5IdZ7nWA",
+        "page": "business-office",
         "position": "Project Manager",
         "location": "Bookstore"
     },
     {
         "name": "Cameron Bundy",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Cameron%20Bundy%205%20MB%20cropped_.jpg?itok=f8RJKFmy",
+        "page": "business-office",
         "position": "Assistant to the Vice President for Finance and Administration",
         "location": "Barn 102A"
     }

@@ -2,48 +2,56 @@
     {
         "name": "Laura Walker",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/%5B20201022%5D%20Laura%20Walker%20President%20Photos.%20-%20Keegan%20Ead%20-%2094%20-%20320x.jpg?itok=Hc3vcCa_",
+        "page": "presidents-office",
         "position": "President",
         "location": "Barn 101"
     },
     {
         "name": "Paige Bartels",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Bartels_Paige_320_230_0.jpg?itok=loR3Mgl6",
+        "page": "presidents-office",
         "position": "Senior Advisor to the President",
         "location": "Barn 101"
     },
     {
         "name": "Shannon Howlett",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Howlett_Shannon_320x230_0.jpg?itok=hqucfbRk",
+        "page": "presidents-office",
         "position": "Executive Assistant",
         "location": "Barn 101"
     },
     {
         "name": "Elio Jahaj '18",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Elio_Jahaj_320x230.jpg?itok=d-SF219y",
+        "page": "presidents-office",
         "position": "Student Success Assessment Coordinator ",
         "location": "Barn 101"
     },
     {
         "name": "Meredith McCoy",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Meredith_McCoy_320x230.jpg?itok=odqwDDlT",
+        "page": "presidents-office",
         "position": "Associate Vice President, Institutional Initiatives (on temporary leave)",
         "location": "Barn 101"
     },
     {
         "name": "Charlie Nadler ",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Charlie%20Nadler%205%20MB.jpg?itok=eFFG9ZGq",
+        "page": "presidents-office",
         "position": "Director, Office of the President & Assistant Secretary to the Board of Trustees",
         "location": "Barn 101"
     },
     {
         "name": "Alfredo Medina, Jr.",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/medina_320x230_1.jpeg?itok=poGLKgXV",
+        "page": "presidents-office",
         "position": "Vice President for Diversity, Equity, and Inclusion and College Diversity Officer",
         "location": "Barn 101"
     },
     {
         "name": "Melissa Smith",
         "img_src": "https://www.bennington.edu/sites/default/files/styles/faculty_320x230/public/sources/staff/Melissa%20Smith%205%20MB.jpg?itok=jZ9aDEN3",
+        "page": "presidents-office",
         "position": "Executive Assistant",
         "location": "Barn 101"
     }
