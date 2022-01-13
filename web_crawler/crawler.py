@@ -18,7 +18,7 @@ def word_cleanup(word):
     """removes blank and new line space from a word"""
     return word.strip(' ').strip('\n')
 
-def presidents_office(url_list, main_website='https://www.bennington.edu'):
+def spider(url_list, main_website='https://www.bennington.edu'):
     """scraps through the presidents office site on bennington.edu
     Args:
     main_website: url of the main webiste. In this case, https://www.bennington.edu
@@ -51,5 +51,5 @@ def presidents_office(url_list, main_website='https://www.bennington.edu'):
 
 if __name__ == '__main__':
     url_list = ['admissions-office', 'presidents-office', 'technology', 'business-office' ]
-    presidents_office(url_list)
+    spider(url_list)
 
