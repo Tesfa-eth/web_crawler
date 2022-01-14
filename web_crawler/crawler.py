@@ -28,12 +28,18 @@ def spider(url_list, main_website='https://www.bennington.edu', separate_files=F
     Returns:
     writes the data to json file
     """
+    # set up logging
+    # Creating an object
     all_data = [] # store scrapped data of all office (page) here, if all_in_one is enabled
     for extension in url_list:
         data = [] # store scrapped data of a single office (page) here
         full_url = main_website + '/' + extension
-        print(full_url)
-        source_code = requests.get(full_url)
+
+        print("Crawling over", full_url)
+        try:
+            source_code = requests.get(full_url)
+        except requests.exceptions.RequestException as e:  # handle errors
+            raise SystemExit(e)
         plain_text = source_code.text
         soup = BeautifulSoup(plain_text, features="html.parser")
         for link in soup.findAll('div', {'class': 'person-detail-box'}):

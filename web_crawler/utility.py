@@ -13,6 +13,6 @@ def write_json(data, file_name, indent=4):
     file_name: name to save the file with
     """
     path = 'web_crawler/scrapped_data/' + file_name + '.json'
-    print('writing to', path)
+    #print('writing to', path)
     with open(path, 'w') as outfile:
         json.dump(data, outfile, indent=indent)
