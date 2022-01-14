@@ -5,6 +5,7 @@ Tesfatsion Shiferaw
 2022 G.C
 """
 import json
+import re
 
 def write_json(data, file_name, indent=4):
     """writes json to a file
@@ -28,6 +29,7 @@ def read_json_file(path=r'web_crawler\scrapped_data\all_scraped_data.json'):
     with open(path, 'r') as data_file:  
         return json.load(data_file)
 
-
-
-#print(read_json_file())
+def clean_name(name):
+    """cleans a name by removing all non-alphabets"""
+    regex = re.compile('[^a-zA-Z]')
+    return regex.sub('', name)
